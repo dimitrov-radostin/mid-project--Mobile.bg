@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="assets/js/controllers/loadBrandsController.js"></script>
+    <script src="assets/js/controllers/addVehicleController.js"></script>
+    <script src="assets/js/services/vehicleServices.js"></script>
+    <title>Add vehicle</title>
+    <style>
+        button {
+            display: block;
+            width: 100%
+        }
+
+        #vehicleType {
+            width: 120px;
+            height: 2em;
+            margin-bottom: 1em
+        }
+
+        .remove {
+            font-weight: bolder;
+        }
+
+        .addPhoto:hover {
+            cursor: pointer;
+
+        }
+        .photoCell{
+            display: relative;
+        }
+        .photoCell>*{
+            float: left;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <form id="addVehicleForm" action=""> -->
+    <!--         
+  //when the whole table was in a form the event added to 
+   $("#publish").on("click"... ,was executing ot every enter pressed -->
+    <select name="type" id="vehicleType">
+        <option value="car">car</option>
+        <option value="truck">truck</option>
+        <option value="bus">bus</option>
+    </select>
+    <table>
+
+        <thead>
+            <th colspan="2">Obligatory fields:</th>
+        </thead>
+        <tr>
+            <td>make</td>
+            <td>
+                <input id="makeInput" list="makeDataList" placeholder="make">
+                <datalist id="makeDataList">
+
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td>model</td>
+            <td>
+                <input id="modelInput" list="modelDataList" placeholder="modelDataList">
+                <datalist id="modelDataList">
+
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td>price</td>
+            <td>
+                <input type="number" placeholder="price">
+            </td>
+        </tr>
+        <tr>
+            <td>year</td>
+            <td>
+                <input type="number" placeholder="year">
+            </td>
+        </tr>
+        <tr>
+            <td>mileage</td>
+            <td>
+                <input type="number" placeholder="mileage">
+            </td>
+        </tr>
+        <tr>
+            <td>photos</td>
+            <td>
+                <input type="url" field="photo" placeholder="photo1">
+            </td>
+            <td>
+                <span class="addPhoto" title="add another photo"> &#10133 </span>
+            </td>
+        </tr>
+        <tr id="photosRow">
+
+        </tr>
+        <script type="text/x-handlebars-template" id="carPhotoTemplate">
+            <td class="photoCell">
+                <h4> {{photoNumber}}</h4>
+                <img src="{{url}}" alt="{{photoNumber}}" height="120px">
+                <input type="text" placeholder="add description">
+            </td>
+        </script>
+
+        <thead>
+            <th colspan="2">Add more details:</th>
+        </thead>
+        <tr>
+            <td colspan="2">
+                <select name="option" id="detailSelect">
+                    <option value="color">color</option>
+                    <option value="previous owners"> previous owners</option>
+                    <option value="topSpeed">topSpeed</option>
+                    <option value="number of doors">number of doors</option>
+                    <option value="transmition">transmition</option>
+                    <option value="fuel type">fuel type</option>
+                    <option value="fuel consumption">fuel consumption</option>
+                    <option value="CO2 emission">CO2 emission</option>
+                    <option value="engine capacity">engine capacity</option>
+                    <option value="engine cylinder">engine cylender</option>
+                    <option value="power Hp">power Hp</option>
+                    <option value="acceleration">acceleration</option>
+                </select>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button id="publish"> Publish your ad </button>
+            </td>
+        </tr>
+
+    </table>
+    <!-- </form> -->
+</body>
+
+</html>

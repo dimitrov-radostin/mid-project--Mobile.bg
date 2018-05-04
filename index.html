@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>-->
+    
+    <script src="node_modules/jquery-colorbox/jquery.colorbox-min.js"></script>
+
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>-->
+
+    <!--services-->
+    <script src="assets/js/services/userServices.js"></script>
+    <script src="assets/js/services/vehicleServices.js"></script>
+    
+    <!--controllers-->
+    <script src="assets/js/controllers/offersController.js"></script>
+    <script src="assets/js/controllers/homePageController.js"></script> 
+    <script src="assets/js/controllers/userController.js"></script> 
+    <script src="assets/js/controllers/editProfileController.js"></script>
+    <script src="assets/js/controllers/editOffersController.js"></script>
+    <script src="assets/js/controllers/favoritesController.js"></script>
+    <script src="assets/js/controllers/searchController.js"></script>
+    <script src="assets/js/controllers/addOfferController.js"></script>
+    <script src="assets/js/controllers/loadBrandsController.js"></script>          
+    <script src="assets/js/controllers/detailsController.js"></script>
+    <script src="assets/js/controllers/app.js"></script>
+    <!--styles-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">-->
+    
+    <link rel="stylesheet" href="node_modules/jquery-colorbox/colorbox.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/layout.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/offers.css">
+    <link rel="stylesheet" href="assets/styles/search.css">
+    <link rel="icon" href="assets/images/favicon.png">
+    <title>mobile.bg</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div>
+                <a id="logo" href="#">
+                    <img src="assets/images/logo.png" alt="mobile.bg" />
+                </a>
+                <nav id="userNav" role="navigation">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#favorites" class="nav-link">Бележник
+                                <span id="counterOfFavorites">(0)</span>
+                            </a></li>
+                        <li class="nav-item"><a href="#editOffers" class="nav-link">Моите обяви</a></li>
+                        <li class="nav-item"><a href="#profile" id="nav-profile" class="nav-link">Профил</a></li>
+                        <li class="nav-item">
+                            <a href="#login-modal" id="nav-login" class="nav-link" data-toggle="modal" data-target="#login-modal">Вход</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav id="offersNav" role="navigation">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#home" id="homeLink" class="nav-link active">Начало</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Търсене</a></li>
+                        <li class="nav-item"><a href="#addOffer" id="addOfferLink" class="nav-link">Добави обява</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <main>
+            <!-- LOGIN -->
+             <div id="login-modal" class="modal fade" tabindex="-1" role="dialog"></div>             
+            <!-- HOME PAGE -->
+            <div id="homePage"> </div>         
+            <!-- ADD NEW OFFER PAGE -->
+            <div id="addOffer"></div>              
+            <!-- DETAILS -->
+            <div id="offerDetailsPage"></div>
+            <!-- PROFILE -->
+            <div id="editProfile"></div>
+            <!-- EDIT OFFERS -->
+            <div id="editOffers"></div>
+            <!-- FAV OFFERS -->
+            <div id="favorites"></div>
+             <!--  OFFERS -->
+            <div id="offersPage"></div>
+        </main>
+    </div>
+
+</body>
+
+</html>
