@@ -1,0 +1,142 @@
+
+    <section id="search" class="box">
+        <h1>Търсене</h1>
+        <form action="">
+            <div class="searchBox">
+                <label>Марка</label>
+                <select name="makeId" class="make">
+                    <option value="0">- Всички -</option>
+
+                </select>
+            </div>
+            <div class="searchBox">
+                <label>Модел</label>
+                <select name="modelId" id="modelId" class="model">
+                    <option value="0">- Всички -</option>
+
+                </select>
+            </div>
+            <div class="searchBox">
+                <label for="">Година</label>
+                <select name="yearFrom" id="YearFrom" onchange="" class="textfield">
+                    <option value="0">- Всички -</option>
+                    <!-- other values generated via the controller -->
+                </select>
+            </div>
+            <div class="searchBox">
+                <label>Двигател</label>
+                <select  name="engine" id="engine">
+                    <option value="0">- Всички -</option>
+                    <option value="Бензинов">Бензинов</option>
+                    <option value="Дизелов">Дизелов</option>
+                    <option value="Електрически">Електрически</option>
+                    <option value="Хибриден">Хибриден</option>
+                </select>
+            </div>
+            <div class="searchBox">
+                <label>Скоростна кутия</label>
+                <select name="transmission">
+                    <option value="0">- Всички -</option>
+                    <option value="Ръчна">Ръчна</option>
+                    <option value="Автоматична">Автоматична</option>
+                    <option value="Полуавтоматична">Полуавтоматична</option>
+                </select>
+            </div>
+            <div class="searchBox">
+                <label for="">Максимална цена</label>
+                <select name="priceTo" id="PriceTo">
+                    <option value="0">- Всички -</option>
+
+                </select>
+            </div>
+            <div class="searchBox">
+                <label>Категория</label>
+                <select name="category" id="category">
+                    <option value="0">- Всички -</option>
+                    <option value="Ван">Ван</option>
+                    <option value="Джип">Джип</option>
+                    <option value="Кабрио">Кабрио</option>
+                    <option value="Комби">Комби</option>
+                    <option value="Купе">Купе</option>
+                    <option value="Миниван">Миниван</option>
+                    <option value="Пикап">Пикап</option>
+                    <option value="Седан">Седан</option>
+                    <option value="Стреч лимузина">Стреч лимузина</option>
+                    <option value="Хечбек">Хечбек</option>
+                </select>
+            </div>
+
+            <div class="searchBox">
+                <label>Регион</label>
+                <select name="region" region="region">
+                    <option value="0">- Всички -</option>
+                    <option value="Благоевград">Благоевград
+                    </option>
+                    <option value="Бургас">Бургас
+                    </option>
+                    <option value="Варна">Варна
+                    </option>
+                    <option value="Велико Търново">Велико Търново
+                    </option>
+                    <option value="Видин">Видин
+                    </option>
+                    <option value="Враца">Враца
+                    </option>
+                    <option value="Габрово">Габрово
+                    </option>
+                    <option value="Добрич">Добрич
+                    </option>
+                    <option value="Дупница">Дупница
+                    </option>
+                    <option value="Кърджали">Кърджали
+                    </option>
+                    <option value="Кюстендил">Кюстендил
+                    </option>
+                    <option value="Ловеч">Ловеч
+                    </option>
+                    <option value="Монтана">Монтана
+                    </option>
+                    <option value="Пазарджик">Пазарджик
+                    </option>
+                    <option value="Перник">Перник
+                    </option>
+                    <option value="Плевен">Плевен
+                    </option>
+                    <option value="Пловдив">Пловдив
+                    </option>
+                    <option value="Разград">Разград
+                    </option>
+                    <option value="Русе">Русе
+                    </option>
+                    <option value="Силистра">Силистра
+                    </option>
+                    <option value="Сливен">Сливен
+                    </option>
+                    <option value="Смолян">Смолян
+                    </option>
+                    <option value="София">София
+                    </option>
+                    <option value="Стара Загора">Стара Загора
+                    </option>
+                    <option value="Търговище">Търговище
+                    </option>
+                    <option value="Хасково">Хасково
+                    </option>
+                    <option value="Шумен">Шумен
+                    </option>
+                    <option value="Ямбол">Ямбол
+                    </option>
+                    <option value="Извън страната">Извън страната
+
+                    </option>
+                </select>
+            </div>
+            <div class="searchControls">
+                <!--<a id="deteiledSearchLink" href="#" class="simpleLink">Детайлно търсене</a>-->
+                <button id="searchButton">Търси</button>
+            </div>
+        </form>
+    </section>
+    <section id="offers">
+        <!-- Най-нови оферти -->
+    </section>

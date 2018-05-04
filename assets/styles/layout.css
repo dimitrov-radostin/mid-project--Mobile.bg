@@ -1,0 +1,65 @@
+/* layout */
+#wrapper {
+    
+}
+
+header {
+    padding-top: 10px;
+    background: #303030; /*#ededed*/
+    border-bottom: 3px solid #0099ff;
+}
+
+header > div,
+main {
+    max-width: 978px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    background-color: white;
+}
+
+#logo {
+    position: relative;
+}
+
+/*nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 5px 10px;
+    
+}
+*/
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #0099ff;
+    color: white;
+    /* background: #8ad329; */
+    /* background-color: #f25821; */
+}
+
+nav#offersNav {
+    margin-top: 15px;
+    padding: 5px 0;
+}
+
+nav#userNav {
+    position: relative;
+    float: right;
+}

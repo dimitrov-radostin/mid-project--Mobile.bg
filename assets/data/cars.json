@@ -1,0 +1,268 @@
+[
+  {
+    "photos": [
+      "https://i4.cars.bg/2018-03-10_1/20454269o.jpg",
+      "https://i2.cars.bg/2018-03-10_1/20453063o.jpg",
+      "https://i4.cars.bg/2018-03-10_1/20454302o.jpg",
+      "https://i3.cars.bg/2018-03-10_1/20454316o.jpg",
+      "https://i2.cars.bg/2018-03-10_1/20454451o.jpg"
+    ],
+    "extras": [
+      "Бордови компютър",
+      "Автопилот",
+      "Климатик",
+      "Аларма",
+      "Тунинг",
+      "ABS",
+      "Ел.стъкла"
+    ],
+    "optional": {
+      "color": "черен",
+      "doors": "4/5",
+      "power": "224",
+      "engineVolume": "3000",
+      "consumption": "11"
+    },
+    "makeId": "88",
+    "make": "Mercedes-Benz",
+    "modelId": "575",
+    "model": "M-klasse",
+    "engine": "Дизелов",
+    "transmission": "Ръчна",
+    "category": "Джип",
+    "region": "Варна",
+    "price": "20000",
+    "year": "2008",
+    "mileage": "450000",
+    "description": "Продавам Мерцедес ML320, W164, Airmatic,4matic, Sport-пакет,7G-tronic, Klimatronic,\nАвтомобила е напълно изправен, Каско, ГО до Ноември 2018, комплект гуми с джанти 17\" зимни (монтирани на автомобила, още се чудя защо ги купувах при тази \"зима\"), комплект гуми с джанти 19\" летни.\nСменени всички въздушни възглавници на Airmatic с нови ( не рециклирани ), както и задни амортисьори.\nВградена на тавана DVD система Alpine с 2 комплекта слушалки (много хубава добавка ако имате деца, въоръжете се с батерии за слушалките ААА).\nАвтомобила има актуална карта на вградената навигация, допълнително GPS проследяване, допълнителен Имобилайзер ( от застрахователя го изискваха ), фабрично централно заключване.\nИнтериора е доста запазен, Алкантра.\nЕкстериора е с леки забележки ( за перфекционистите-има каско, колата все пак се кара във Варна).\nАвтомобила е много добър, само разхода му ми дойде в повече. Тия коне искат храна (14-16/100 градско и 9-11/извън градско, зависи и кой номер обувки носите :)\nЗа заинтересуваните : заповядайте да се запознаете с автомобила.",
+    "id": 38166562,
+    "publisherId": 42,
+    "publishDate": "2018/4/12"
+  },
+  {
+    "photos": [
+      "https://i4.cars.bg/2018-03-14_1/20560366o.jpg",
+      "https://i2.cars.bg/2018-03-14_1/20560367o.jpg",
+      "https://i1.cars.bg/2018-03-14_1/20560372o.jpg",
+      "https://i3.cars.bg/2018-03-14_1/20560373o.jpg",
+      "https://i1.cars.bg/2018-03-14_1/20560374o.jpg"
+    ],
+    "extras": [
+      "Парктроник",
+      "Бордови компютър",
+      "Климатик",
+      "Аларма",
+      "ABS",
+      "Ел.стъкла"
+    ],
+    "optional": {
+      "color": "сив",
+      "doors": "4/5",
+      "power": "69",
+      "engineVolume": "998",
+      "consumption": "5"
+    },
+    "makeId": "140",
+    "make": "Toyota",
+    "modelId": "919",
+    "model": "Yaris",
+    "engine": "Дизелов",
+    "transmission": "Автоматична",
+    "category": "Хечбек",
+    "region": "Кюстендил",
+    "price": "3888",
+    "year": "2018",
+    "mileage": "120000",
+    "description": "oyota Yaris 1. 4 D-4D, 2 ключа, хубави гуми, един собственик, няма скъсано или правено по салона. Всички екстри работят. Колата е проверена, диагностицирана и тествана. Може да се направи диагностика и при ваш доверен сервиз. Автокъща ' IVANCHOV' предлага съдействие при регистрация на автомобилите в КАТ, както и транспорт в Благоевград, съдействие за изваждане на транзитни номера, износ на автомобили(КАТ, Митница и Застраховка). Работно време на Автокъща ' IVANCHOV' - Понеделник до Петък от 9: 00 ч. до 17: 00 ч. ; Събота от 9: 00 ч. до 13: 00 ч. (Неделя - с предварителна уговорка по телефона! ) Автокъщата се намира зад METRO.\nИзгледайте видео клипа на автомобила, коментар на цената може да се прави само на място!",
+    "id": 74017823,
+    "publisherId": 42,
+    "publishDate": "2018/4/12"
+  },
+  {
+    "photos":["https://i3.cars.bg/2018-04-09_2/21156603o.jpg","https://i3.cars.bg/2018-04-09_2/21156931o.jpg","https://i3.cars.bg/2018-01-29_2/19526935o.jpg","https://i2.cars.bg/2018-01-30_1/19548974o.jpg"],
+    "extras":["Бордови компютър","Автопилот","Аларма","Теглич","Тунинг"],
+    "optional":{"color":"златен","doors":"5","power":"75","engineVolume":"1600","consumption":"7"},
+    "makeId":"175",
+    "make":"Citroen",
+    "engine":"Дизелов",
+    "transmission":"Ръчна",
+    "category":"Комби",
+    "region":"Враца",
+    "price":"9500",
+    "mileage":"195000",
+    "year":"2018",
+    "id":158536,
+    "publisherId":42,
+    "publishDate":"2018/4/11",
+    "description": "Автомобилът е върнат от оперативен лизинг на Фолксваген Лизинг Германия. Отлично техническо, пълна сервизна история и документация. Das WeltAuto гаранция - 6 месеца или 10 000 км. Възможност за трансформация в товарен автомобил N1 и право на данъчен кредит. Възможност за лизинг - Порше Лизинг. Може да се види всеки делничен ден в Порше София Юг. За повече информация: Георги Бубураков - 0888 98 41 02 и Любомир Керемидчиев - 0882 41 09 08. Други екстри: Рейки на покрива, Система за почистване на фарове, Радио CD MP3, Мултифункционален волан, Подготовка автотелефон, Кожен волан, Регулируем волан, Асистент при потегляне, Заден фар за мъгла, Подглавници "
+  },
+  {
+    "photos": [
+      "http://img.autoabc.lv/volkswagen-golf/volkswagen-golf_1991_Hecbeks_15111131644_2.jpg"
+    ],
+    "extras": ["teglich"],
+    "optional": {
+      "color": "ребекино лилаво",
+      "power": "300",
+      "engineVolume": "300",
+      "doors": "3",
+      "consumption": "8"
+    },
+    "type": "car",
+    "makeId": "147",
+    "make": "Volkswagen",
+    "modelId": "970",
+    "model": "Golf",
+    "price": "1200",
+    "mileage": "300000",
+    "publishDate": "2018/04/11",
+    "id": "20",
+    "publisherId": "26",
+    "category": "Комби",
+    "year": "2018",
+    "description": "много добра, жал ми е да я продам"
+  },
+  {
+    "extras": ["navigation", "teglich", "abs", "elWindows"],
+    "optional": {
+      "color": "смесен",
+      "power": "230",
+      "engineVolume": "300",
+      "doors": "5",
+      "consumption": "39"
+    },
+    "type": "car",
+    "id": "4",
+    "makeId": "121",
+    "make": "Saab",
+    "modelId": "1044",
+    "model": "9-7X",
+    "price": "3200",
+    "mileage": "5000000",
+    "": "",
+    "category": "Хечбек",
+    "year": "2018",
+    "publisherId": "26",
+    "publishDate": "2018/04/08",
+    "photos": [
+      "https://i0.wp.com/hooniverse.com/wp-content/uploads/2014/09/DSC03738.jpg",
+      "https://i.ytimg.com/vi/QuCVuSPkNrg/hqdefault.jpg",
+      "https://cdn04.carsforsale.com/3/1008938/16424563/thumb/998358152.jpg"
+    ],
+    "description": "издава един странен звук , но все пак върви"
+  },
+  {
+    "extras": [
+      "parcktronic",
+      "navigation",
+      "alarm",
+      "panoramicTop",
+      "tuning",
+      "abs",
+      "elWindows"
+    ],
+    "optional": {
+      "color": "бял",
+      "power": "300",
+      "engineVolume": "4000",
+      "doors": "4",
+      "consumption": "20"
+    },
+    "type": "car",
+    "id": "5",
+    "makeId": "41",
+    "make": "Dodge",
+    "modelId": "240",
+    "model": "Avenger",
+    "price": "21700",
+    "mileage": "0",
+    "publishDate": "2017/04/09",
+    "publisherId": "42",
+    "photos": [
+      "https://cdn.shopify.com/s/files/1/1227/1442/products/Dodge-Avenger_1024x1024.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/2008-2010_Dodge_Avenger_--_05-13-2011.jpg/280px-2008-2010_Dodge_Avenger_--_05-13-2011.jpg"
+    ],
+    "category": "Купе",
+    "year": "2018",
+    "description": "голям звяр"
+  },
+  {
+    "make": "Audi",
+    "model": "Q7 4.2 TDI S-LINE PANORAMA",
+    "engineType": "Дизелов",
+    "category": "Седан",
+    "transmission": "Ръчна",
+    "price": "47500",
+    "mileage": "30000",
+    "id": "10",
+    "year": "2018",
+    "month": "Март",
+    "publishDate": "2018/04/21",
+    "publisherId": "42",
+    "photos": ["http://3-photos7.motorcar.com/new-2018-audi-q7-30tfsiprestige-12487-17176397-4-1024.jpg", "https://demo.themefuse.com/autotrader/wp-content/uploads/2013/05/prod_img_07-270x190.jpg"]
+  },
+  {
+    "make": "BMW",
+    "model": "X5 Adaptive Drive Head-Up Display",
+    "price": "37500",
+    "year": "2009",
+    "transmission": "Ръчна",
+    "mileage": "30584",
+    "id": "11",
+    "publisherId": "26",
+    "publishDate": "2018/04/07",
+    "photo1": "https://demo.themefuse.com/autotrader/wp-content/uploads/2013/05/prod_img_05-270x190.jpg"
+  },
+  {
+    "make": "Audi",
+    "model": "Q7 4.2 TDI S-LINE PANORAMA",
+    "price": "47500",
+    "year": "2009",
+    "mileage": "50500",
+    "publishDate": "2018/04/07",
+    "id": "12",
+    "publisherId": "42",
+    "photo1": "https://demo.themefuse.com/autotrader/wp-content/uploads/2013/05/prod_img_07-270x190.jpg"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "price": "7800",
+    "year": "2009",
+    "mileage": "235000",
+    "transmission": "Ръчна",
+    "id": "13",
+    "publisherId": "42",
+    "publishDate": "2018/04/07",
+    "photos": [
+      "https://media.ed.edmunds-media.com/honda/civic/2017/fd/2017_honda_civic_actf34_fd_621174_717.jpg",
+
+      "https://media.ed.edmunds-media.com/honda/civic/2018/ot/2018_honda_civic_LIFE1_ot_1212171_1280.jpg"
+    ],
+    "add description": "",
+    "power Hp": "300"
+  },
+  {
+    "make": "Honda",
+    "model": "civic",
+    "transmission": "Ръчна",
+    "price": "1200",
+    "year": "2011",
+    "numberOfDoors": "5",
+    "mileage": "300000",
+    "publishDate": "2014/04/09",
+    "id": "1",
+    "publisherId": "42"
+  },
+
+  {
+    "make": "Monda",
+    "model": "mivic",
+    "publishDate": "2018/01/09",
+    "price": "5",
+    "year": "2012",
+    "publisherId": "26",
+    "mileage": "302000",
+    "id": "3"
+  }
+]

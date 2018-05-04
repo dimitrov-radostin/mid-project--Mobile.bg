@@ -1,0 +1,86 @@
+<!-- <div id="" class="tab-pane fade"> -->
+    <br/>
+    <form id='editForm' action="">
+<p class="alert-success"></p>
+        <!-- NAME -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+            <input class="form-control" type="text" id='newUsername' placeholder="Потребителско име" required="true" aria-label="Username"
+                aria-describedby="basic-addon1">
+        </div>
+        <!-- OLD PASS -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon2">
+                    <i class="fas fa-lock"></i>
+                </span>
+            </div>
+            <input class="form-control" type="password" id='oldPassword' placeholder="Стара парола" required="true" aria-label="Парола" aria-describedby="basic-addon2">
+        </div>
+        <!-- NEW PASS -->
+        <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon2">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                </div>
+                <input class="form-control" type="password" id='newPassword' placeholder="Нова парола" required="true" aria-label="Парола" aria-describedby="basic-addon2">
+         </div>
+         <!-- PASS AGAIN -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">
+                    <i class="fas fa-lock"></i>
+                </span>
+            </div>
+            <input class="form-control" type="password" id='repeatPassword' placeholder="Повтори парола" required="true" aria-label="Повтори парола"
+                aria-describedby="basic-addon3">
+        </div> 
+        <!-- EMAIL -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon4">
+                    <i class="fas fa-at"></i>
+                </span>
+            </div>
+            <input class="form-control" type="text" id='email' placeholder="Имейл" required="true" aria-label="Имейл"
+                aria-describedby="basic-addon4">
+        </div>
+        <!-- NAME -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon4">
+                    <i class="fas fa-user-circle"></i>
+                </span>
+            </div>
+            <input class="form-control" type="text" id='user_name' placeholder="Име (напр. Иван Иванов)" required="true" aria-label="Име (напр. Иван Иванов)"
+                aria-describedby="basic-addon4">
+        </div>
+        <!-- REGION -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon5">
+                    <i class="fas fa-map-marker"></i>
+                </span>
+            </div>
+            <input class="form-control" type="text" id='user_address' placeholder="Населено място" required="true" aria-label="Населено място"
+                aria-describedby="basic-addon5">
+        </div>
+        <!-- PHONE -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon6">
+                    <i class="fas fa-mobile-alt"></i>
+                </span>
+            </div>
+            <input class="form-control" type="text" id='user_phone' placeholder="Телефон" required="true" aria-label="Телефон" aria-describedby="basic-addon6">
+        </div>
+        <div class='alert alert-danger'></div>
+        <div class="modal-footer">
+            <button id='edit-btn' type="button" class="btn btn-info" data-toggle="modal">Редактирай</button>
+        </div>
+    </form>

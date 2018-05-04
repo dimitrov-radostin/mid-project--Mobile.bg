@@ -1,0 +1,32 @@
+/* search */
+#search h1 {
+    text-align: center;
+}
+
+.searchBox {
+    float: left;
+    width: 200px;
+    min-height: 70px;
+    padding: 10px;
+}
+
+.searchBox label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.searchBox select {
+    width: 140px;
+    padding: 5px;
+}
+
+#search .searchControls {
+    clear: both;
+    text-align: right;
+}
+
+#search button {
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+} 

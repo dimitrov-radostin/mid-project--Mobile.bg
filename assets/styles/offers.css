@@ -1,0 +1,191 @@
+/* car offers */
+section#offers {
+  margin-top: 20px;
+}
+
+.heading {
+  margin-bottom: 14px;
+  margin-top: 32px;
+}
+
+.heading span.h3 {
+  font-size: 16px;
+}
+
+.offer {
+  display: block;
+  border: 1px solid #ced6db;
+  border-bottom-width: 2px;
+  background: #fff;
+  margin-bottom: 40px;
+  border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+}
+
+.offer .offer-image {
+  max-width: 100%;
+  /* border-right: 3px solid #f25620; */
+  
+}
+
+.offer .offer-image img {
+  max-width: 100%;
+  /* vertical-align: text-bottom; */
+  border-bottom: 3px solid #0099ff;
+  border-right: 3px solid #0099ff;
+}
+
+.offer .offer-aside {
+  padding: 10px 22px;
+}
+
+.offer .offer-aside h4 {
+  position: relative;
+  margin: 0;
+}
+
+.offer .offer-aside a.favorite {
+  position: absolute;
+  right: 0;
+}
+
+.offer .offer-descr {
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  margin: 14px 0;
+}
+
+.offer-data {
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 15px;
+  color: #5a6670;
+}
+
+.offer .offer-price {
+  float: right;
+  font-size: 15px;
+  /* color: #f25821; */
+  color: #0099ff;
+  font-weight: 500;
+}
+
+.offer-mileage {
+  background-position: 0 0;
+  float: left;
+}
+
+.offer-mileage,
+.offer-regist {
+  background: url(../images/offer_icons.png) 0 -48px no-repeat;
+  padding-left: 19px;
+  font-weight: 500;
+}
+
+
+/* Offer Details */
+.offer-details h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+
+.offer-nav .nav-link {
+  font-size: 0.875rem;
+}
+
+.offer-details .offer-images a {
+  display: inline-block;
+}
+
+.offer-details .offer-images,
+.offer-details .offer-images img {
+  max-width: 100%;
+  text-align: center;
+}
+
+.offer-details .offer-images img.thumb {
+  width: 85px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.offer-details .offer-aside {
+  padding: 10px 22px;
+}
+
+.offer-details .offer-aside table {
+  width: 100%;
+}
+
+.offer-details .offer-price {
+  text-align: left;
+  /* color: #f25821; */
+  color: #0099ff;
+  font-size: 1.5rem;
+}
+
+.offer-details .publish-date {
+  font-size: .8rem;
+  color: #777;
+}
+
+/* star on offers page & offer details page */
+/* a.favorite .is-favorite,
+a.favorite:hover .add-favorite {
+  display: none;
+}
+
+a.favorite:hover .is-favorite {
+  display: inline-block;
+} */
+
+/* a.favorite .is-favorite{
+  color: yellow
+} */
+.is-favorite{
+  color:rgb(173, 209, 233)
+}
+.is-favorite:hover, .darkBlue{
+  color:rgb(135, 11, 184)
+}
+
+
+/* ADD OFFER*/
+span.addPhoto {
+  cursor: pointer;
+}
+.darkBlue:hover {
+  color:rgb(173, 209, 233)
+}
+
+@media only screen and (min-width: 600px) {
+  .offer-details .offer-content {
+    display: grid;
+    grid-template-columns: 400px auto;
+  }
+
+.offer-details .offer-images,
+.offer-details .offer-images img {
+  width: 400px;
+  text-align: left;
+}
+.offer {
+  display: grid;
+  grid-template-columns: 200px auto;
+
+}
+
+.offer .offer-image {
+  width: 200px;
+  /* border-right: 3px solid #f25620; */
+  
+}
+
+.offer .offer-image img {
+  width: 200px;
+  /* vertical-align: text-bottom; */
+}
+  
+}

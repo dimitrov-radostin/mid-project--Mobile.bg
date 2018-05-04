@@ -1,0 +1,47 @@
+<div class="filterResults">
+</div>
+<div class="heading">
+    <span class="h3">{{heading}}</span>
+</div>
+{{#each cars}}
+<article class="offer">
+    <div class="offer-image">
+        <a href="#details?veh={{id}}">
+            <img src="{{photos.[0]}}" alt="photo of {{make}} , {{model}}" title="details" class="">
+        </a>
+    </div>
+    <div class="offer-aside">
+
+        <h4 class="">
+            <a href="#details?veh={{id}}" class="">{{make}} {{model}} </a>
+            <!-- <div class="zvezdichka"> -->
+            <a   class="favorite btn btn-link"  title="Добави в бележник"> <!-- да се сменя с Премахни то бележник -->
+                <!-- <i type="zv" class="add-favorite far fa-star fa-lg"></i> -->
+                <i id="{{id}}" class="is-favorite fas fa-star fa-lg"></i>
+            </a>
+        <!-- </div> -->
+        </h4>
+
+        <div class="offer-descr">
+            {{#if category}}
+                {{category}}
+            {{/if}} 
+            {{#if engine}}
+                , {{engine}}
+            {{/if}}
+             {{#if extras.[0]}}
+                , {{extras.[0]}}
+            {{/if}}
+            {{#if extras.[1]}}
+                , {{extras.[1]}} 
+            {{/if}}
+        </div>
+        <div class="offer-data">
+            <div class="offer-price">{{price}}лв.</div>
+            <span class="offer-mileage">{{mileage}} KM</span>
+            <span class="offer-regist">{{publishDate}}</span>
+        </div>
+
+    </div>
+</article>
+{{/each}}

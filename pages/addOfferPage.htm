@@ -1,0 +1,247 @@
+<h1 class="mb-3">Публикуване на безплатна обява</h1>
+
+<section class="offerDetailsRequired box mb-4">
+    <h5 class="border-bottom">Задължителни полета</h5>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="selectMake">Марка</label>
+            <select name="makeId" class="make form-control" id="selectMake" required>
+                <option value="0">- Избери марка -</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="selectModel">Модел</label>
+            <select name="modelId" class="model form-control" id="selectModel" required>
+                <option value="0">- Избери модел -</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="engine">Двигател</label>
+            <select id="engine" name="engine" class="form-control" required>
+                <option value="0">- Избери вид на двигателя -</option>
+                <option value="Бензинов">Бензинов</option>
+                <option value="Дизелов">Дизелов</option>
+                <option value="Електрически">Електрически</option>
+                <option value="Хибриден">Хибриден</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="selectTransmission">Скоростна кутия</label>
+            <select name="transmission" class="form-control" id="selectTransmission" required>
+                <option value="0">- Избери -</option>
+                <option value="Ръчна">Ръчна</option>
+                <option value="Автоматична">Автоматична</option>
+                <option value="Полуавтоматична">Полуавтоматична</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label for="selectCategory">Категория</label>
+            <select name="category" class="form-control" id="selectCategory" required>
+                <option value="0">- Избери категория на купе -</option>
+                <option value="Ван">Ван</option>
+                <option value="Джип">Джип</option>
+                <option value="Кабрио">Кабрио</option>
+                <option value="Комби">Комби</option>
+                <option value="Купе">Купе</option>
+                <option value="Миниван">Миниван</option>
+                <option value="Пикап">Пикап</option>
+                <option value="Седан">Седан</option>
+                <option value="Стреч лимузина">Стреч лимузина</option>
+                <option value="Хечбек">Хечбек</option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="selectRegion">Регион</label>
+            <select name="region" class="form-control" id="selectRegion" required>
+                <option value="0">- Избери -</option>
+                <option value="Благоевград">Благоевград
+                </option>
+                <option value="Бургас">Бургас
+                </option>
+                <option value="Варна">Варна
+                </option>
+                <option value="Велико Търново">Велико Търново
+                </option>
+                <option value="Видин">Видин
+                </option>
+                <option value="Враца">Враца
+                </option>
+                <option value="Габрово">Габрово
+                </option>
+                <option value="Добрич">Добрич
+                </option>
+                <option value="Дупница">Дупница
+                </option>
+                <option value="Кърджали">Кърджали
+                </option>
+                <option value="Кюстендил">Кюстендил
+                </option>
+                <option value="Ловеч">Ловеч
+                </option>
+                <option value="Монтана">Монтана
+                </option>
+                <option value="Пазарджик">Пазарджик
+                </option>
+                <option value="Перник">Перник
+                </option>
+                <option value="Плевен">Плевен
+                </option>
+                <option value="Пловдив">Пловдив
+                </option>
+                <option value="Разград">Разград
+                </option>
+                <option value="Русе">Русе
+                </option>
+                <option value="Силистра">Силистра
+                </option>
+                <option value="Сливен">Сливен
+                </option>
+                <option value="Смолян">Смолян
+                </option>
+                <option value="София">София
+                </option>
+                <option value="Стара Загора">Стара Загора
+                </option>
+                <option value="Търговище">Търговище
+                </option>
+                <option value="Хасково">Хасково
+                </option>
+                <option value="Шумен">Шумен
+                </option>
+                <option value="Ямбол">Ямбол
+                </option>
+                <option value="Извън страната">Извън страната
+
+                </option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-4">
+            <label for="inputPrice">Цена</label>
+            <input type="number" class="form-control" name="price" required placeholder="Цена" id="inputPrice" min="1">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="selectYear">Година на производство</label>
+            <select name="year" class="form-control" id="selectYear" required>
+                <option value="0">- Избери -</option>
+            </select>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputMileage">Пробег</label>
+            <input type="number" class="form-control" name="mileage" required placeholder="Пробег" id="inputMileage" min="0">
+        </div>
+    </div> 
+</section>
+
+<section class="box mb-4">
+    <h5 class="border-bottom">Снимки</h5>
+    <table>
+        <tr>
+            <td>
+                <input class="photo form-control" type="url" class="photo" name="photo1" placeholder="photo1">
+            </td>
+            <td>
+                <span class="addPhoto" title="add another photo"> &#10133 </span>
+            </td>
+        </tr>
+        <tr id="photosRow">
+
+        </tr>
+        </table>
+    <script type="text/x-handlebars-template" id="carPhotoTemplate">
+        <td class="photoCell" colspan="2">
+            <h6> {{photoNumber}}</h6>
+            <img src="{{url}}" alt="{{photoNumber}}" height="120px">
+        </td>
+    </script>
+</section>
+
+<section class="box mb-4">
+    <h5 class="border-bottom">Допълнителна информация</h5>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputColor">Цвят</label>
+            <input type="text" class="form-control optional" name="color" placeholder="Цвят" id="inputColor">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputDoors">Брой врати</label>
+            <input type="text" class="form-control optional" name="doors" placeholder="Брой врати" id="inputDoors">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="inputPower">Мощност</label>
+            <input type="text" class="form-control optional" name="power" placeholder="Конски сили" id="inputPower">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputEngineVolume">Кубатура на двигателя</label>
+            <input type="text" class="form-control optional" name="engineVolume" placeholder="Кубатура на двигателя" id="inputEngineVolume">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputConsumption">Разход (литри/100км)</label>
+            <input type="text" class="form-control optional" name="consumption" placeholder="Разход (литри/100км)" id="inputConsumption">
+        </div>
+    </div>
+    <h5 class="border-bottom">Екстри</h5>
+    <div class="row mb-3">
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxParktronic" value="Парктроник" name="parcktronic">
+                <label class="form-check-label" for="checkboxParktronic">Парктроник</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxComputer" value="Бордови компютър" name="computer">
+                <label class="form-check-label" for="checkboxComputer">Бордови компютър</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxNavigation" value="Навигационна система" name="navigation">
+                <label class="form-check-label" for="checkboxNavigation">Навигационна система</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxAutopilot" value="Автопилот" name="autopilot">
+                <label class="form-check-label" for="checkboxAutopilot">Автопилот</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxAirConditioner" value="Климатик" name="airConditioner">
+                <label class="form-check-label" for="checkboxAirConditioner">Климатик</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxAlarm" value="Аларма" name="alarm">
+                <label class="form-check-label" for="checkboxAlarm">Аларма</label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxTeglich" value="Теглич" name="teglich">
+                <label class="form-check-label" for="checkboxTeglich">Теглич</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxPanoramicTop" value="Панорамен покрив" name="panoramicTop">
+                <label class="form-check-label" for="checkboxPanoramicTop">Панорамен покрив</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxTuning" value="Тунинг" name="tuning">
+                <label class="form-check-label" for="checkboxTuning">Тунинг</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxAbs" value="ABS" name="abs">
+                <label class="form-check-label" for="checkboxAbs">ABS</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkboxElWindows" value="Ел.стъкла" name="elWindows">
+                <label class="form-check-label" for="checkboxElWindows">Ел.стъкла</label>
+            </div>
+        </div>
+    </div>
+    <h5 class="border-bottom">Описание</h5>
+    <div class="form-group">
+        <textarea type="text" class="form-control" name="description" placeholder="Описание"></textarea>
+    </div>
+</section>
+
+<button id="publish" class="btn btn-info btn-lg">Публикувай</button>

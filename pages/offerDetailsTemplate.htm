@@ -1,0 +1,84 @@
+<div class="offer-nav mb-3">
+    <ul class="nav">
+        <li class="nav-item">
+            <a href="#home" class="nav-link">Ново търсене</a>
+        </li><!--
+        <li class="nav-item">
+            <a href="#" class="nav-link">Резултати от търсенето</a>
+        </li>-->
+        <!-- ако search-bar-a си остава горе и при резултатите, няма нужда от това
+        <li class="nav-item">
+            <a href="#" class="nav-link">Корекция на търсенето</a>
+        </li>-->
+        <!--
+        <li class="nav-item"><a href="#" class="nav-link">Предишна</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Следваща</a></li>-->
+    </ul>
+</div>
+    
+<section class="offer-details">
+    <h1>{{vehicle.make}} {{vehicle.model}}</h1>
+    <div class="offer-content mb-3">
+        <div class="offer-images">
+            <a href="{{vehicle.photos.[0]}}" class="gallery cboxElement">
+                <img src="{{vehicle.photos.[0]}}" alt="photo of {{vehicle.make}} , {{vehicle.model}}"  />
+            </a>
+            {{#each vehicle.photos as |img|}}
+                {{#if @index}}<!--
+            --><a href="{{img}}" class="gallery cboxElement">
+                    <img src="{{img}}" alt="photo of {{vehicle.make}} , {{vehicle.model}}" class="thumb"/><!-- всички без първата получават class thumb-->
+                </a><!--
+            -->{{/if}}<!--
+            -->{{/each}}
+        </div>
+        <div class="offer-aside">
+        
+            <table>                
+                <tbody>           
+                    <tr><td>Цена</td><td><div class="offer-price">{{vehicle.price}} лв.</div></td></tr>
+                    <tr><td>Дата на производство</td><td><b>{{vehicle.month}} {{vehicle.year}} г.</b></td></tr>
+                    <tr><td>Тип двигател</td><td><b>{{vehicle.engine}}</b></td></tr>
+                    {{#if vehicle.optional.engineVolume}}<tr><td>Кубатура</td><td><b>{{vehicle.optional.engineVolume}} см<span style="vertical-align:super;font-size:9px;">3</span></b></td></tr>{{/if}}
+                    {{#if vehicle.optional.power}}<tr><td>Мощност</td><td><b>{{vehicle.optional.power}} к.с.</b></td></tr>{{/if}}
+                    {{#if vehicle.optional.consumption}}<tr><td>Разход</td><td><b>{{vehicle.optional.consumption}} л/100км</b></td></tr>{{/if}}
+                    <tr><td>Скоростна кутия</td><td><b>{{vehicle.transmission}}</b></td></tr>
+                    <tr><td>Категория</td><td><b>{{vehicle.category}}</b></td></tr>
+                    <tr><td>Пробег</td><td><b>{{vehicle.mileage}} км</b></td></tr>
+                    {{#if vehicle.optional.color}}<tr><td>Цвят</td><td><b>{{vehicle.optional.color}}</b></td></tr>{{/if}}
+                    {{#if vehicle.color}}<tr><td>Цвят</td><td><b>{{vehicle.color}}</b></td></tr>{{/if}}
+                </tbody>
+            </table><!--
+            <div class="text-center mt-4">
+                <a class=" koko favorite btn btn-link" href="">
+                    <i id="{{id}}" class="koko is-favorite fas fa-star fa-lg"></i>
+                    Добави в бележник
+                </a>
+            </div>-->
+        </div>
+    </div>
+    {{#if vehicle.extras}}
+        <div>
+            <h5 class="border-bottom">Особености и екстри</h5>
+            <p>   
+            {{#each vehicle.extras as |extra|}}
+                {{#if @index}}, {{/if}}{{extra}}
+            {{/each}}
+            </p>
+        </div>
+    {{/if}}
+    {{#if vehicle.description}}
+        <div class="offer-descr mb-5">
+            <h5 class="border-bottom">Допълнителна информация</h5>
+            <p class="">{{vehicle.description}}</p>
+        </div>
+    {{/if}}
+    <div class="card mb-3" id="offer-user-details">
+        <h5 class="card-header">За контакти</h5>
+        <div class="card-body">
+            <p class="card-text"><i class="fas fa-user"></i> {{user.name}}</p>
+            <p class="card-text"><i class="fas fa-mobile-alt"></i> {{user.phone}}</p>
+            <p class="card-text"><i class="fas fa-map-marker"></i> {{vehicle.region}}</p>
+        </div>
+    </div>
+    <p class="publish-date">Обявата е публикувана на {{vehicle.publishDate}}</p>
+</section>
